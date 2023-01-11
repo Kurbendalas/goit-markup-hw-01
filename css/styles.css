@@ -25,6 +25,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
+  width: 261px;
 }
 
 .menu-items:hover {
@@ -98,7 +99,7 @@ a {
   position: absolute;
   width: 169px;
   height: 56px;
-  left: 636px;
+  left: 825px;
   top: 428px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -109,13 +110,7 @@ a {
   background-color: #404bbf;
 }
 
-.hero,
-.txt {
-  position: absolute;
-  width: 497px;
-  height: 120px;
-  left: 473px;
-  top: 260px;
+.hero-txt {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -124,14 +119,18 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 1440px;
+}
+
+.hero-beck {
+  width: 1940px;
   height: 600px;
   left: 0px;
   top: 72px;
   background: navy;
 }
 
-.section-1-h {
+.section-1 {
+  display: flex;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -139,8 +138,42 @@ a {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+ul {
+  display: flex;
+}
+
+.footer {
+  width: 1440px;
+  height: 110px;
+  left: 0px;
+  top: 2280px;
+  background: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-txt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
 }
