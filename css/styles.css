@@ -14,6 +14,15 @@ a {
   top: 0px;
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+
+.phone-mail-txt {
+  margin-right: 30px;
+}
+
+.contact-phone {
+  margin: 0;
 }
 
 .main-txt {
@@ -123,6 +132,7 @@ a {
   left: 636px;
   top: 428px;
   background: #4d5ae5;
+  margin-top: 48px;
 }
 
 .button:hover {
@@ -132,12 +142,16 @@ a {
 .hero-txt {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 56px;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding-top: 188px;
+  padding-left: 473px;
+  width: 500px;
+  display: flex;
+  text-align: center;
 }
 
 .hero-beck {
@@ -161,6 +175,9 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding-left: 156px;
+  padding-right: 156px;
+  width: 1228px;
 }
 
 ul {
@@ -216,12 +233,19 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
   padding-right: 24px;
+  width: 1228px;
+}
+
+.section-2 {
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .section-2-photo {
   display: flex;
   width: 65%;
   margin-right: 24px;
+  width: 1228px;
 }
 
 .section-3 {
@@ -230,6 +254,7 @@ ul {
   left: 0px;
   top: 1548px;
   background: #f4f4fd;
+  padding-left: 156px;
 }
 
 .section-3-txt {
