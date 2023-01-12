@@ -16,6 +16,10 @@ a {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.main-txt {
+  color: navy;
+}
+
 .menu-items {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -23,9 +27,13 @@ a {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: navy;
   display: flex;
   width: 261px;
+}
+
+.menu-link {
+  color: navy;
 }
 
 .menu-items:hover {
@@ -47,6 +55,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-right: 76px;
 }
 
 .fotter-logo {
@@ -73,6 +82,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: right;
 }
 
 .contact-phone {
@@ -83,6 +93,12 @@ a {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: right;
+}
+
+.contact-mail,
+.contact-phone {
+  text-align: right;
 }
 
 .menu-items:hover,
@@ -96,14 +112,17 @@ a {
 }
 
 .button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
   position: absolute;
   width: 169px;
   height: 56px;
-  left: 825px;
+  left: 636px;
   top: 428px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .button:hover {
@@ -122,11 +141,12 @@ a {
 }
 
 .hero-beck {
-  width: 1940px;
+  width: 1440px;
   height: 600px;
   left: 0px;
   top: 72px;
-  background: navy;
+
+  background: #2e2f42;
 }
 
 .section-1 {
@@ -166,14 +186,87 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-left: 156px;
 }
 
 .footer-txt {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+  padding-left: 156px;
+}
+
+.studio-txt {
+  color: white;
+}
+
+.section-2-txt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-right: 24px;
+}
+
+.section-2-photo {
+  display: flex;
+  width: 65%;
+  margin-right: 24px;
+}
+
+.section-3 {
+  width: 1440px;
+  height: 500px;
+  left: 0px;
+  top: 1548px;
+  background: #f4f4fd;
+}
+
+.section-3-txt {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.section-3-photo {
+  display: flex;
+  margin-right: 24px;
+}
+
+.section-3-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-3-profesint {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
