@@ -39,6 +39,8 @@ a {
   color: navy;
   display: flex;
   width: 261px;
+  padding-left: 40px;
+  text-align: center;
 }
 
 .menu-link {
